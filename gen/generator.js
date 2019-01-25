@@ -129,9 +129,20 @@ const font = (function() {
 	font.glyf = font.glyf
 		.map(function(g, j) {
 			g.gord = j;
+			if (g.advanceWidth === 550)
+                                g.advanceWidth = 500;
 			return g;
 		})
 		.sort(byGlyphPriority);
+	font.parameters.width = 495;
+	font["OS_2"].xAvgCharWidth = 495;
+	for (let k in font.glyfMap) {
+		if (font.glyfMap[k].advanceWidth === 1100)
+                        font.glyfMap[k].advanceWidth = 1000;
+		if (font.glyfMap[k].advanceWidth === 550)
+                        font.glyfMap[k].advanceWidth = 500;
+	}
+
 	return font;
 })();
 

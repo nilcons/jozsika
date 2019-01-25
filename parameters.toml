@@ -236,8 +236,8 @@ spacing = 3
 # HANDLE WITH EXTREME CARE
 # Expanded : I heard someone want it being wider...
 [wd-expanded.multiplies]
-width = 1.15
-sb = 1.15
+width = 1.10
+sb = 1.10
 [expanded]
 inherits = ['wd-expanded']
 
