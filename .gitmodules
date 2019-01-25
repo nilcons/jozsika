@@ -1,3 +1,10 @@
-[submodule "Iosevka"]
-	path = Iosevka
-	url = git://github.com/be5invis/Iosevka
+[submodule "Iosevka-upstream"]
+	path = Iosevka-upstream
+	url = github.com:nilcons/jozsika
+	branch = iosevka-upstream
+	fetchRecurseSubmodules = true
+[submodule "Iosevka-nilcons"]
+	path = Iosevka-nilcons
+	url = github.com:nilcons/jozsika
+	branch = iosevka-nilcons
+	fetchRecurseSubmodules = true

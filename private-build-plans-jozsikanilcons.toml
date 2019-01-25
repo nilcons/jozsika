@@ -1,0 +1,17 @@
+[buildPlans.jozsikanilcons]
+family = "JozsikaNilcons"
+design = ["term", "expanded", "v-tilde-high", "v-at-long", "v-g-singlestorey", "v-asterisk-low", "v-brace-straight"]
+
+[buildPlans.jozsikanilcons.weights.regular]
+shape = 300
+menu  = 400
+css   = 400
+
+[buildPlans.jozsikanilcons.weights.bold]
+shape = 500
+menu  = 700
+css   = 700
+
+[buildPlans.jozsikanilcons.slants]
+upright = "normal"
+italic = "italic"

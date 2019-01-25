@@ -1,15 +1,18 @@
 # Jozsika font
 
-This is just a specialized automated build of Iosevka:
+Jozsika is a specialized automated build of Iosevka:
   - everything is Iosevka Term, so no ligations
-  - only Regular, Bold and Bold Italic edition
-  - Regular's reported weight: 400, real weight: 300
-  - Bold's reported weight: 700, real weight: 500
+  - expanded by 10%
+  - regular, oblique, italic
+  - all weights
 
-For build dependencies, see:
-https://gist.github.com/cowboy/f494f3ae6db9cbb0fb6450a395895281
+JozsikaNilcons is Jozsika, but optimized for saving screen space (both vertically and horizontally):
+  - horizontal letter spacing between characters are condensed by ~10%
+  - only regular, bold and bold italic edition
+  - regular's reported weight: 400, real weight: 300
+  - bold's reported weight: 700, real weight: 500
 
-I did this on Debian Sid at 2019-01-23:
+Build dependencies on Debian Sid at 2019-01-23 (https://gist.github.com/cowboy/f494f3ae6db9cbb0fb6450a395895281):
 
     sudo apt update ; sudo apt install build-essential curl ttfautohint npm nodejs
     mkdir /tmp/jozsika-depends
