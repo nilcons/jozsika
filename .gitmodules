@@ -1,10 +1,10 @@
 [submodule "Iosevka-upstream"]
 	path = Iosevka-upstream
-	url = github.com:nilcons/jozsika
+	url = git@github.com:nilcons/jozsika
 	branch = iosevka-upstream
 	fetchRecurseSubmodules = true
 [submodule "Iosevka-nilcons"]
 	path = Iosevka-nilcons
-	url = github.com:nilcons/jozsika
+	url = git@github.com:nilcons/jozsika
 	branch = iosevka-nilcons
 	fetchRecurseSubmodules = true
